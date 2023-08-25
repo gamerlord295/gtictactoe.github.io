@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic tac toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <p id="p3">Player  won</p>
+    <button id="playAgain" onclick="window.location.reload()">play again</button>
+    <div id="box">
+        <p id="p1">Player's 1 turn</p>
+        <div id="mainBox">
+            <div id="box1" onclick="currentBox(1)">1</div>
+            <div id="box2" onclick="currentBox(2)">2</div>
+            <div id="box3" onclick="currentBox(3)">3</div>
+            <div id="box4" onclick="currentBox(4)">4</div>
+            <div id="box5" onclick="currentBox(5)">5</div>
+            <div id="box6" onclick="currentBox(6)">6</div>
+            <div id="box7" onclick="currentBox(7)">7</div>
+            <div id="box8" onclick="currentBox(8)">8</div>
+            <div id="box9" onclick="currentBox(9)">9</div>
+        </div>
+        <p id="p2">Player's 2 turn</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
